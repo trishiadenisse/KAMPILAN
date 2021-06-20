@@ -1,0 +1,960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animation.meta
+    - Assets/Animation/Canvas.controller
+    - Assets/Animation/Canvas.controller.meta
+    - Assets/Animation/FalseAnswer.anim
+    - Assets/Animation/FalseAnswer.anim.meta
+    - Assets/Animation/Image.controller
+    - Assets/Animation/Image.controller.meta
+    - Assets/Animation/KAMPILAN.controller
+    - Assets/Animation/KAMPILAN.controller.meta
+    - Assets/Animation/Lapu-Lapu.controller
+    - Assets/Animation/Lapu-Lapu.controller.meta
+    - Assets/Animation/MainMenu.controller
+    - Assets/Animation/MainMenu.controller.meta
+    - Assets/Animation/New Animation.anim
+    - Assets/Animation/New Animation.anim.meta
+    - Assets/Animation/Post Test.controller
+    - Assets/Animation/Post Test.controller.meta
+    - Assets/Animation/TITLE.controller
+    - Assets/Animation/TITLE.controller.meta
+    - Assets/Animation/TrueAnswer.anim
+    - Assets/Animation/TrueAnswer.anim.meta
+    - Assets/Animation/Unanswered.anim
+    - Assets/Animation/Unanswered.anim.meta
+    - Assets/Animation/Wakwak animation.anim
+    - Assets/Animation/Wakwak animation.anim.meta
+    - Assets/Animation/character.controller
+    - Assets/Animation/character.controller.meta
+    - Assets/Animation/cloudanimation.anim
+    - Assets/Animation/cloudanimation.anim.meta
+    - Assets/Animation/clouds.controller
+    - Assets/Animation/clouds.controller.meta
+    - Assets/Animation/idleLapuLapu.anim
+    - Assets/Animation/idleLapuLapu.anim.meta
+    - Assets/Animation/jumpLapuLapu.anim
+    - Assets/Animation/jumpLapuLapu.anim.meta
+    - Assets/Animation/lapu-lapu.anim
+    - Assets/Animation/lapu-lapu.anim.meta
+    - Assets/Animation/lapulapu 1.controller
+    - Assets/Animation/lapulapu 1.controller.meta
+    - Assets/Animation/lapulapu.controller
+    - Assets/Animation/lapulapu.controller.meta
+    - Assets/Animation/lapulapuanimation.anim
+    - Assets/Animation/lapulapuanimation.anim.meta
+    - Assets/Animation/left bush.controller
+    - Assets/Animation/left bush.controller.meta
+    - Assets/Animation/leftbushanimation.anim
+    - Assets/Animation/leftbushanimation.anim.meta
+    - Assets/Animation/mainmenuanimation.anim
+    - Assets/Animation/mainmenuanimation.anim.meta
+    - Assets/Animation/right bush 1.controller
+    - Assets/Animation/right bush 1.controller.meta
+    - Assets/Animation/right bush.controller
+    - Assets/Animation/right bush.controller.meta
+    - Assets/Animation/rightbushanimation.anim
+    - Assets/Animation/rightbushanimation.anim.meta
+    - Assets/Animation/runLapuLapu.anim
+    - Assets/Animation/runLapuLapu.anim.meta
+    - Assets/Audio.meta
+    - Assets/Audio/Musway Studio - 020-2 - Festive Mood.mp3
+    - Assets/Audio/Musway Studio - 020-2 - Festive Mood.mp3.meta
+    - Assets/Audio/Musway Studio - 021-2 - Inspiring Carousel.mp3
+    - Assets/Audio/Musway Studio - 021-2 - Inspiring Carousel.mp3.meta
+    - Assets/Audio/Musway Studio - 025-2 - Romantic Inspiration.mp3
+    - Assets/Audio/Musway Studio - 025-2 - Romantic Inspiration.mp3.meta
+    - Assets/Audio/Musway Studio - 039-2 - Romantic Piano.mp3
+    - Assets/Audio/Musway Studio - 039-2 - Romantic Piano.mp3.meta
+    - Assets/Audio/Musway Studio - 162-2 - Ambient Relaxing.mp3
+    - Assets/Audio/Musway Studio - 162-2 - Ambient Relaxing.mp3.meta
+    - Assets/Fonts.meta
+    - Assets/Fonts/GAMEPLAY.TTF
+    - Assets/Fonts/GAMEPLAY.TTF.meta
+    - Assets/Fonts/GOBOLD BOLD ITALIC.OTF
+    - Assets/Fonts/GOBOLD BOLD ITALIC.OTF.meta
+    - Assets/Fonts/GOBOLD BOLD.OTF
+    - Assets/Fonts/GOBOLD BOLD.OTF.meta
+    - Assets/Fonts/GOBOLD REGULAR ITALIC.OTF
+    - Assets/Fonts/GOBOLD REGULAR ITALIC.OTF.meta
+    - Assets/Fonts/GOBOLD REGULAR.OTF
+    - Assets/Fonts/GOBOLD REGULAR.OTF.meta
+    - Assets/Fonts/GOBOLD THIN ITALIC.OTF
+    - Assets/Fonts/GOBOLD THIN ITALIC.OTF.meta
+    - Assets/Fonts/GOBOLD THIN.OTF
+    - Assets/Fonts/GOBOLD THIN.OTF.meta
+    - Assets/Fonts/dogica.meta
+    - Assets/Fonts/dogica/dogica.otf
+    - Assets/Fonts/dogica/dogica.otf.meta
+    - Assets/Fonts/dogica/dogicabold.otf
+    - Assets/Fonts/dogica/dogicabold.otf.meta
+    - Assets/Fonts/dogica/dogicapixel.otf
+    - Assets/Fonts/dogica/dogicapixel.otf.meta
+    - Assets/Fonts/dogica/dogicapixelbold.otf
+    - Assets/Fonts/dogica/dogicapixelbold.otf.meta
+    - Assets/Paroxe.meta
+    - Assets/Paroxe/PDFRenderer.meta
+    - Assets/Paroxe/PDFRenderer/API.meta
+    - Assets/Paroxe/PDFRenderer/API/Action.meta
+    - Assets/Paroxe/PDFRenderer/API/Action/IPDFDeviceActionHandler.cs
+    - Assets/Paroxe/PDFRenderer/API/Action/IPDFDeviceActionHandler.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFAction.cs
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFAction.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFActionHandlerHelper.cs
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFActionHandlerHelper.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFDest.cs
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFDest.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFLink.cs
+    - Assets/Paroxe/PDFRenderer/API/Action/PDFLink.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/IPDFDevice.cs
+    - Assets/Paroxe/PDFRenderer/API/IPDFDevice.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFAsset.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFAsset.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFBookmark.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFBookmark.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFDocument.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFDocument.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFLibrary.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFLibrary.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFPage.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFPage.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/PDFViewer.cs
+    - Assets/Paroxe/PDFRenderer/API/PDFViewer.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Rendering.meta
+    - Assets/Paroxe/PDFRenderer/API/Rendering/IPDFColoredRectListProvider.cs
+    - Assets/Paroxe/PDFRenderer/API/Rendering/IPDFColoredRectListProvider.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Rendering/PDFColoredRect.cs
+    - Assets/Paroxe/PDFRenderer/API/Rendering/PDFColoredRect.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Rendering/PDFRenderer.cs
+    - Assets/Paroxe/PDFRenderer/API/Rendering/PDFRenderer.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Text.meta
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFProgressiveSearch.cs
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFProgressiveSearch.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFSearchHandle.cs
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFSearchHandle.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFSearchResult.cs
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFSearchResult.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFTextPage.cs
+    - Assets/Paroxe/PDFRenderer/API/Text/PDFTextPage.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/WebGL.meta
+    - Assets/Paroxe/PDFRenderer/API/WebGL/IPDFJS_Promise.cs
+    - Assets/Paroxe/PDFRenderer/API/WebGL/IPDFJS_Promise.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/WebGL/PDFJS_Library.cs
+    - Assets/Paroxe/PDFRenderer/API/WebGL/PDFJS_Library.cs.meta
+    - Assets/Paroxe/PDFRenderer/API/WebGL/PDFJS_Promise.cs
+    - Assets/Paroxe/PDFRenderer/API/WebGL/PDFJS_Promise.cs.meta
+    - Assets/Paroxe/PDFRenderer/ApiDocumentation.chm
+    - Assets/Paroxe/PDFRenderer/ApiDocumentation.chm.meta
+    - Assets/Paroxe/PDFRenderer/Examples.meta
+    - Assets/Paroxe/PDFRenderer/Examples/API_Usage.unity
+    - Assets/Paroxe/PDFRenderer/Examples/API_Usage.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/API_UsageSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/API_UsageSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/API_Usage.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/API_Usage.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/NextButton.png
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/NextButton.png.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFBytesSupplierExample.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFBytesSupplierExample.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFDocumentRenderToTextureExample.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFDocumentRenderToTextureExample.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFPlaneMaterial.mat
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFPlaneMaterial.mat.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFViewer_API_Usage.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/PDFViewer_API_Usage.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/Previous.png
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/Previous.png.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/ShowPersistentData.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/ShowPersistentData.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/WebGL_API_Usage.cs
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/WebGL_API_Usage.cs.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/pdf-sample.asset
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/pdf-sample.asset.meta
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/pdf-sample.pdf
+    - Assets/Paroxe/PDFRenderer/Examples/Assets/pdf-sample.pdf.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFDocument_Render.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFDocument_Render.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFDocument_RenderSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFDocument_RenderSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_API_Usage.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_API_Usage.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_API_UsageSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_API_UsageSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Asset.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Asset.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_AssetSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_AssetSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Bytes.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Bytes.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_BytesSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_BytesSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CanvasScaler_Mobile.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CanvasScaler_Mobile.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CanvasScaler_MobileSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CanvasScaler_MobileSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CustomViewer.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CustomViewer.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CustomViewerSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_CustomViewerSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_HoloLens.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_HoloLens.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_PersistentData.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_PersistentData.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_PersistentDataSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_PersistentDataSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Resources.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Resources.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_ResourcesSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_ResourcesSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_StreamingAssets.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_StreamingAssets.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_StreamingAssetsSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_StreamingAssetsSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Web.unity
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_Web.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_WebSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/PDFViewer_WebSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Examples/WebGL_API_Usage.unity
+    - Assets/Paroxe/PDFRenderer/Examples/WebGL_API_Usage.unity.meta
+    - Assets/Paroxe/PDFRenderer/Examples/WebGL_API_UsageSettings.lighting
+    - Assets/Paroxe/PDFRenderer/Examples/WebGL_API_UsageSettings.lighting.meta
+    - Assets/Paroxe/PDFRenderer/Internal.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Close32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Close32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Facebook32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Facebook32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Message32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Message32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Open32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Open32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFAssetEditor.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFAssetEditor.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFImporterContextMenu.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFImporterContextMenu.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFViewerEditor.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PDFViewerEditor.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PRHelper.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PRHelper.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PRParoxeBanner.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/PRParoxeBanner.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Paroxe32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Paroxe32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Rating32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Rating32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Twitter32.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/Twitter32.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/logo_pa.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/logo_pa.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/logo_pv.png
+    - Assets/Paroxe/PDFRenderer/Internal/Editor/logo_pv.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Fonts.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Fonts/ABeeZee-Regular.otf
+    - Assets/Paroxe/PDFRenderer/Internal/Fonts/ABeeZee-Regular.otf.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/PDFBitmap.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/PDFBitmap.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/PDFInternalUtils.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/PDFInternalUtils.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFBookmarkListItem.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFBookmarkListItem.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFBookmarksViewer.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFBookmarksViewer.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFPageRange.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFPageRange.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFPageTextureHolder.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFPageTextureHolder.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFSearchPanel.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFSearchPanel.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFThumbnailItem.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFThumbnailItem.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFThumbnailsViewer.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFThumbnailsViewer.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerDefaultActionHandler.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerDefaultActionHandler.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerInternal.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerInternal.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerLeftPanel.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerLeftPanel.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerLeftPanelScrollbar.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerLeftPanelScrollbar.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerPage.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerPage.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerSearchButton.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/Viewer/PDFViewerSearchButton.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/WebGL.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/WebGL/PDFJS_PromiseCoroutine.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/WebGL/PDFJS_PromiseCoroutine.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/WebGL/PDFJS_WebGLCanvas.cs
+    - Assets/Paroxe/PDFRenderer/Internal/Scripts/WebGL/PDFJS_WebGLCanvas.cs.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/BookmarkIcon.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/BookmarkIcon.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Border.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Border.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Border2px.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Border2px.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Button.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Button.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/CheckBoxTick.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/CheckBoxTick.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ClosePanel.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ClosePanel.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ClosedTab.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ClosedTab.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/DocBackground.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/DocBackground.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Document.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Document.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/DownArrow.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/DownArrow.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Download.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Download.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Find.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Find.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/HandLinkCursor.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/HandLinkCursor.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/HorLine.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/HorLine.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/InputField.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/InputField.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/InvalidBackground.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/InvalidBackground.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/LeftPanelClose.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/LeftPanelClose.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/LeftPanelOpen.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/LeftPanelOpen.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Light_Close.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Light_Close.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ListCollapse.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ListCollapse.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ListExpand.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ListExpand.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Move.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Move.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/OpenedTab.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/OpenedTab.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Password.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Password.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ResizeCursor.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ResizeCursor.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ScrollBar.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ScrollBar.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ScrollBarGrip.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ScrollBarGrip.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchArrow.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchArrow.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchPanelClose.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchPanelClose.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchPin.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchPin.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchResultLeft.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchResultLeft.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchResultRight.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/SearchResultRight.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Seperator.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/Seperator.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/TabsBackground.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/TabsBackground.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/TopBar.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/TopBar.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/UpArrow.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/UpArrow.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomIn.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomIn.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomOut.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomOut.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomViewerHeight.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomViewerHeight.png.meta
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomViewerWidth.png
+    - Assets/Paroxe/PDFRenderer/Internal/Textures/ZoomViewerWidth.png.meta
+    - Assets/Paroxe/PDFRenderer/OnlineDocumentation.txt
+    - Assets/Paroxe/PDFRenderer/OnlineDocumentation.txt.meta
+    - Assets/Paroxe/PDFRenderer/PDFViewer.prefab
+    - Assets/Paroxe/PDFRenderer/PDFViewer.prefab.meta
+    - Assets/Paroxe/PDFRenderer/Plugins.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/armeabi-v7a.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/armeabi-v7a/libpdfrenderer.so
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/armeabi-v7a/libpdfrenderer.so.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/x86.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/x86/libpdfrenderer.so
+    - Assets/Paroxe/PDFRenderer/Plugins/Android/libs/x86/libpdfrenderer.so.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/PDFRendererNotice.txt
+    - Assets/Paroxe/PDFRenderer/Plugins/PDFRendererNotice.txt.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/ARM.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/ARM/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/ARM/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/X86.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/X86/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WP8/X86/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/ARM.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/ARM/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/ARM/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X64.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X64/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X64/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X86.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X86/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/SDK81/X86/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/ARM.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/ARM/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/ARM/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x64.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x64/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x64/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x86.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x86/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/WSA/UWP/x86/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WebGL.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/WebGL/pdfrenderer.jslib
+    - Assets/Paroxe/PDFRenderer/Plugins/WebGL/pdfrenderer.jslib.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/iOS.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/iOS/pdfrenderer.a
+    - Assets/Paroxe/PDFRenderer/Plugins/iOS/pdfrenderer.a.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents/Info.plist
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents/Info.plist.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents/MacOS.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents/MacOS/pdfrenderer
+    - Assets/Paroxe/PDFRenderer/Plugins/pdfrenderer.bundle/Contents/MacOS/pdfrenderer.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86/libpdfrenderer.so
+    - Assets/Paroxe/PDFRenderer/Plugins/x86/libpdfrenderer.so.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/x86/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86_64.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86_64/libpdfrenderer.so
+    - Assets/Paroxe/PDFRenderer/Plugins/x86_64/libpdfrenderer.so.meta
+    - Assets/Paroxe/PDFRenderer/Plugins/x86_64/pdfrenderer.dll
+    - Assets/Paroxe/PDFRenderer/Plugins/x86_64/pdfrenderer.dll.meta
+    - Assets/Paroxe/PDFRenderer/WebGL Support Guide.txt
+    - Assets/Paroxe/PDFRenderer/WebGL Support Guide.txt.meta
+    - Assets/Paroxe/PDFRenderer/WebGLTemplate.unitypackage
+    - Assets/Paroxe/PDFRenderer/WebGLTemplate.unitypackage.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Game Completed.unity
+    - Assets/Scenes/Game Completed.unity.meta
+    - Assets/Scenes/Level 1 (Mactan Shrine).unity
+    - Assets/Scenes/Level 1 (Mactan Shrine).unity.meta
+    - Assets/Scenes/Level 1 Post Test.unity
+    - Assets/Scenes/Level 1 Post Test.unity.meta
+    - Assets/Scenes/Level 2 (Bridge).unity
+    - Assets/Scenes/Level 2 (Bridge).unity.meta
+    - Assets/Scenes/Level 2 Post Test.unity
+    - Assets/Scenes/Level 2 Post Test.unity.meta
+    - Assets/Scenes/Level 3 (Church).unity
+    - Assets/Scenes/Level 3 (Church).unity.meta
+    - Assets/Scenes/Level 3 Post Test.unity
+    - Assets/Scenes/Level 3 Post Test.unity.meta
+    - Assets/Scenes/Level 4 (Sea).unity
+    - Assets/Scenes/Level 4 (Sea).unity.meta
+    - Assets/Scenes/Level 4 Post Test.unity
+    - Assets/Scenes/Level 4 Post Test.unity.meta
+    - Assets/Scenes/Level 5 (Airport).unity
+    - Assets/Scenes/Level 5 (Airport).unity.meta
+    - Assets/Scenes/Level 5 Post Test.unity
+    - Assets/Scenes/Level 5 Post Test.unity.meta
+    - Assets/Scenes/Level 6 (Guitar).unity
+    - Assets/Scenes/Level 6 (Guitar).unity.meta
+    - Assets/Scenes/Level 6 Post Test.unity
+    - Assets/Scenes/Level 6 Post Test.unity.meta
+    - Assets/Scenes/Main Menu.unity
+    - Assets/Scenes/Main Menu.unity.meta
+    - Assets/Scenes/Main MenuSettings.lighting
+    - Assets/Scenes/Main MenuSettings.lighting.meta
+    - Assets/Scenes/Map.unity
+    - Assets/Scenes/Map.unity.meta
+    - Assets/Scenes/Mini Level.unity
+    - Assets/Scenes/Mini Level.unity.meta
+    - Assets/Scenes/Module 1.unity
+    - Assets/Scenes/Module 1.unity.meta
+    - Assets/Scenes/Module 2.unity
+    - Assets/Scenes/Module 2.unity.meta
+    - Assets/Scenes/Module 3.unity
+    - Assets/Scenes/Module 3.unity.meta
+    - Assets/Scenes/Module 4.unity
+    - Assets/Scenes/Module 4.unity.meta
+    - Assets/Scenes/Module 5.unity
+    - Assets/Scenes/Module 5.unity.meta
+    - Assets/Scenes/Module 6.unity
+    - Assets/Scenes/Module 6.unity.meta
+    - Assets/Scenes/Modules.unity
+    - Assets/Scenes/Modules.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/AnswerScript.cs
+    - Assets/Scripts/AnswerScript.cs.meta
+    - Assets/Scripts/BACK.cs
+    - Assets/Scripts/BACK.cs.meta
+    - Assets/Scripts/ChangeScene.cs
+    - Assets/Scripts/ChangeScene.cs.meta
+    - Assets/Scripts/Character.cs
+    - Assets/Scripts/Character.cs.meta
+    - Assets/Scripts/Dialogue.cs
+    - Assets/Scripts/Dialogue.cs.meta
+    - Assets/Scripts/DialogueManager.cs
+    - Assets/Scripts/DialogueManager.cs.meta
+    - Assets/Scripts/DialogueTrigger.cs
+    - Assets/Scripts/DialogueTrigger.cs.meta
+    - Assets/Scripts/GameManager1.cs
+    - Assets/Scripts/GameManager1.cs.meta
+    - Assets/Scripts/LevelSelection.cs
+    - Assets/Scripts/LevelSelection.cs.meta
+    - Assets/Scripts/MainMenu.cs
+    - Assets/Scripts/MainMenu.cs.meta
+    - Assets/Scripts/Map.cs
+    - Assets/Scripts/Map.cs.meta
+    - Assets/Scripts/MoveToNextLevel.cs
+    - Assets/Scripts/MoveToNextLevel.cs.meta
+    - Assets/Scripts/Parallax.cs
+    - Assets/Scripts/Parallax.cs.meta
+    - Assets/Scripts/Question.cs
+    - Assets/Scripts/Question.cs.meta
+    - Assets/Scripts/QuestionAndAnswers.cs
+    - Assets/Scripts/QuestionAndAnswers.cs.meta
+    - Assets/Scripts/QuizManager.cs
+    - Assets/Scripts/QuizManager.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Buttons-Recovered.psd
+    - Assets/Sprites/Buttons-Recovered.psd.meta
+    - Assets/Sprites/Congratulations-Screen.png
+    - Assets/Sprites/Congratulations-Screen.png.meta
+    - Assets/Sprites/FALSE button.png
+    - Assets/Sprites/FALSE button.png.meta
+    - Assets/Sprites/LEVELS.meta
+    - Assets/Sprites/LEVELS/1.png
+    - Assets/Sprites/LEVELS/1.png.meta
+    - Assets/Sprites/LEVELS/2.png
+    - Assets/Sprites/LEVELS/2.png.meta
+    - Assets/Sprites/LEVELS/AIRPORT.png
+    - Assets/Sprites/LEVELS/AIRPORT.png.meta
+    - Assets/Sprites/LEVELS/BRIDGE.png
+    - Assets/Sprites/LEVELS/BRIDGE.png.meta
+    - Assets/Sprites/LEVELS/CHURCH.png
+    - Assets/Sprites/LEVELS/CHURCH.png.meta
+    - Assets/Sprites/LEVELS/GUITAR.png
+    - Assets/Sprites/LEVELS/GUITAR.png.meta
+    - Assets/Sprites/LEVELS/LapuDesign (1).png
+    - Assets/Sprites/LEVELS/LapuDesign (1).png.meta
+    - Assets/Sprites/LEVELS/LapuDesign (2).png
+    - Assets/Sprites/LEVELS/LapuDesign (2).png.meta
+    - Assets/Sprites/LEVELS/Level 1.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/Posttest Layout.psd
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/Posttest Layout.psd.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/chatbox.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/chatbox.png.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/false.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/false.png.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/idk brown thing.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/idk brown thing.png.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/kweschon.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/kweschon.png.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/lapuplapu.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/lapuplapu.png.meta
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/true.png
+    - Assets/Sprites/LEVELS/Level 1/POST TEST/true.png.meta
+    - Assets/Sprites/LEVELS/MACTAN SHRINE.png
+    - Assets/Sprites/LEVELS/MACTAN SHRINE.png.meta
+    - Assets/Sprites/LEVELS/New Folder.meta
+    - Assets/Sprites/LEVELS/New Folder/1.png
+    - Assets/Sprites/LEVELS/New Folder/1.png.meta
+    - Assets/Sprites/LEVELS/New Folder/2.png
+    - Assets/Sprites/LEVELS/New Folder/2.png.meta
+    - Assets/Sprites/LEVELS/New Folder/3.png
+    - Assets/Sprites/LEVELS/New Folder/3.png.meta
+    - Assets/Sprites/LEVELS/New Folder/4.png
+    - Assets/Sprites/LEVELS/New Folder/4.png.meta
+    - Assets/Sprites/LEVELS/New Folder/5.png
+    - Assets/Sprites/LEVELS/New Folder/5.png.meta
+    - Assets/Sprites/LEVELS/New Folder/6-1.png
+    - Assets/Sprites/LEVELS/New Folder/6-1.png.meta
+    - Assets/Sprites/LEVELS/New Folder/6-2.png
+    - Assets/Sprites/LEVELS/New Folder/6-2.png.meta
+    - Assets/Sprites/LEVELS/New Folder/sad.png
+    - Assets/Sprites/LEVELS/New Folder/sad.png.meta
+    - Assets/Sprites/LEVELS/SEA.png
+    - Assets/Sprites/LEVELS/SEA.png.meta
+    - Assets/Sprites/LEVELS/chatbox122.png
+    - Assets/Sprites/LEVELS/chatbox122.png.meta
+    - Assets/Sprites/LEVELS/chatbox2.png
+    - Assets/Sprites/LEVELS/chatbox2.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/MenuBackground.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/MenuBackground.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/bridge.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/bridge.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/clouds.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/clouds.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/lapulapu.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/lapulapu.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/left bush.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/left bush.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/right bush.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/right bush.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/sea.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/sea.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/second bridge.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/second bridge.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/violet bg.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/Menu bg PNG/violet bg.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/SKY.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/SKY.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/bridge bg.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/bridge bg.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/bridge fg 1.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/bridge fg 1.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/bush left.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/bush left.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/buttons.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/buttons.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/clouds.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/clouds.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/main menu.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/main menu.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/right bush.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/right bush.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/sea.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/sea.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/stand with lapu lapu.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/stand with lapu lapu.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/stand.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/stand.png.meta
+    - Assets/Sprites/MAINMENU NEW DESIGN/title2.png
+    - Assets/Sprites/MAINMENU NEW DESIGN/title2.png.meta
+    - Assets/Sprites/MAP.meta
+    - Assets/Sprites/MAP/AIRPORT.png
+    - Assets/Sprites/MAP/AIRPORT.png.meta
+    - Assets/Sprites/MAP/BRIDGE.png
+    - Assets/Sprites/MAP/BRIDGE.png.meta
+    - Assets/Sprites/MAP/CHURCH.png
+    - Assets/Sprites/MAP/CHURCH.png.meta
+    - Assets/Sprites/MAP/GUITAR.png
+    - Assets/Sprites/MAP/GUITAR.png.meta
+    - Assets/Sprites/MAP/MACTANSHRINE 1.png
+    - Assets/Sprites/MAP/MACTANSHRINE 1.png.meta
+    - Assets/Sprites/MAP/MACTANSHRINE.png
+    - Assets/Sprites/MAP/MACTANSHRINE.png.meta
+    - Assets/Sprites/MAP/SEA.png
+    - Assets/Sprites/MAP/SEA.png.meta
+    - Assets/Sprites/MAP/map numbers.meta
+    - Assets/Sprites/MAP/map numbers/1.png
+    - Assets/Sprites/MAP/map numbers/1.png.meta
+    - Assets/Sprites/MAP/map numbers/2.png
+    - Assets/Sprites/MAP/map numbers/2.png.meta
+    - Assets/Sprites/MAP/map numbers/3.png
+    - Assets/Sprites/MAP/map numbers/3.png.meta
+    - Assets/Sprites/MAP/map numbers/4.png
+    - Assets/Sprites/MAP/map numbers/4.png.meta
+    - Assets/Sprites/MAP/map numbers/5.png
+    - Assets/Sprites/MAP/map numbers/5.png.meta
+    - Assets/Sprites/MAP/map numbers/6.png
+    - Assets/Sprites/MAP/map numbers/6.png.meta
+    - Assets/Sprites/MAP/map w road.png
+    - Assets/Sprites/MAP/map w road.png.meta
+    - Assets/Sprites/MAP/map.png
+    - Assets/Sprites/MAP/map.png.meta
+    - Assets/Sprites/MAP/mapbg.png
+    - Assets/Sprites/MAP/mapbg.png.meta
+    - Assets/Sprites/MODULES.meta
+    - Assets/Sprites/MODULES/IMG.meta
+    - Assets/Sprites/MODULES/IMG/MODULES1.png
+    - Assets/Sprites/MODULES/IMG/MODULES1.png.meta
+    - Assets/Sprites/MODULES/IMG/MODULES2.png
+    - Assets/Sprites/MODULES/IMG/MODULES2.png.meta
+    - Assets/Sprites/MODULES/IMG/MODULES3.png
+    - Assets/Sprites/MODULES/IMG/MODULES3.png.meta
+    - Assets/Sprites/MODULES/IMG/MODULES4.png
+    - Assets/Sprites/MODULES/IMG/MODULES4.png.meta
+    - Assets/Sprites/MODULES/IMG/MODULES5.png
+    - Assets/Sprites/MODULES/IMG/MODULES5.png.meta
+    - Assets/Sprites/MODULES/IMG/MODULES6.png
+    - Assets/Sprites/MODULES/IMG/MODULES6.png.meta
+    - Assets/Sprites/MODULES/MODULE LOOK.png
+    - Assets/Sprites/MODULES/MODULE LOOK.png.meta
+    - Assets/Sprites/MODULES/TEST.meta
+    - Assets/Sprites/MODULES/TEST/MODULES1.png
+    - Assets/Sprites/MODULES/TEST/MODULES1.png.meta
+    - Assets/Sprites/MODULES/TEST/MODULES2.png
+    - Assets/Sprites/MODULES/TEST/MODULES2.png.meta
+    - Assets/Sprites/MODULES/TEST/MODULES3.png
+    - Assets/Sprites/MODULES/TEST/MODULES3.png.meta
+    - Assets/Sprites/MODULES/TEST/MODULES4.png
+    - Assets/Sprites/MODULES/TEST/MODULES4.png.meta
+    - Assets/Sprites/MODULES/TEST/MODULES5.png
+    - Assets/Sprites/MODULES/TEST/MODULES5.png.meta
+    - Assets/Sprites/MODULES/TEST/MODULES6.png
+    - Assets/Sprites/MODULES/TEST/MODULES6.png.meta
+    - Assets/Sprites/MODULES/bg desgin.png
+    - Assets/Sprites/MODULES/bg desgin.png.meta
+    - Assets/Sprites/MODULES/exit.png
+    - Assets/Sprites/MODULES/exit.png.meta
+    - Assets/Sprites/MODULES/locked bar.png
+    - Assets/Sprites/MODULES/locked bar.png.meta
+    - Assets/Sprites/MODULES/locked exit.png
+    - Assets/Sprites/MODULES/locked exit.png.meta
+    - Assets/Sprites/MODULES/locked notice.png
+    - Assets/Sprites/MODULES/locked notice.png.meta
+    - Assets/Sprites/MODULES/module exit.png
+    - Assets/Sprites/MODULES/module exit.png.meta
+    - Assets/Sprites/MODULES/module.png
+    - Assets/Sprites/MODULES/module.png.meta
+    - Assets/Sprites/MODULES/progress bar.png
+    - Assets/Sprites/MODULES/progress bar.png.meta
+    - Assets/Sprites/MODULES/unlocked module bar.png
+    - Assets/Sprites/MODULES/unlocked module bar.png.meta
+    - Assets/Sprites/Modules.png
+    - Assets/Sprites/Modules.png.meta
+    - Assets/Sprites/SETTINGS.meta
+    - Assets/Sprites/SETTINGS/CREDITS PANEL.png
+    - Assets/Sprites/SETTINGS/CREDITS PANEL.png.meta
+    - Assets/Sprites/SETTINGS/credits button.png
+    - Assets/Sprites/SETTINGS/credits button.png.meta
+    - Assets/Sprites/SETTINGS/music bar.png
+    - Assets/Sprites/SETTINGS/music bar.png.meta
+    - Assets/Sprites/SETTINGS/offf switch.png
+    - Assets/Sprites/SETTINGS/offf switch.png.meta
+    - Assets/Sprites/SETTINGS/on off switch.png
+    - Assets/Sprites/SETTINGS/on off switch.png.meta
+    - Assets/Sprites/SETTINGS/on switch.png
+    - Assets/Sprites/SETTINGS/on switch.png.meta
+    - Assets/Sprites/SETTINGS/settings panel.png
+    - Assets/Sprites/SETTINGS/settings panel.png.meta
+    - Assets/Sprites/SETTINGS/sound bar.png
+    - Assets/Sprites/SETTINGS/sound bar.png.meta
+    - Assets/Sprites/SUMMARY-Lay-out.png
+    - Assets/Sprites/SUMMARY-Lay-out.png.meta
+    - Assets/Sprites/TRUE BUTTON.png
+    - Assets/Sprites/TRUE BUTTON.png.meta
+    - Assets/Sprites/Untitled-1 (1).png
+    - Assets/Sprites/Untitled-1 (1).png.meta
+    - Assets/Sprites/dialogue box.png
+    - Assets/Sprites/dialogue box.png.meta
+    - Assets/Sprites/dirt jdskfhsdf.png
+    - Assets/Sprites/dirt jdskfhsdf.png.meta
+    - Assets/Sprites/left button.png
+    - Assets/Sprites/left button.png.meta
+    - Assets/Sprites/left.png
+    - Assets/Sprites/left.png.meta
+    - Assets/Sprites/parallax bg.meta
+    - Assets/Sprites/parallax bg/1.png
+    - Assets/Sprites/parallax bg/1.png.meta
+    - Assets/Sprites/parallax bg/2.png
+    - Assets/Sprites/parallax bg/2.png.meta
+    - Assets/Sprites/parallax bg/bg.png
+    - Assets/Sprites/parallax bg/bg.png.meta
+    - Assets/Sprites/parallax bg/buildings.png
+    - Assets/Sprites/parallax bg/buildings.png.meta
+    - Assets/Sprites/parallax bg/clouds n sun.png
+    - Assets/Sprites/parallax bg/clouds n sun.png.meta
+    - Assets/Sprites/play button.png
+    - Assets/Sprites/play button.png.meta
+    - Assets/Sprites/rectangle.png
+    - Assets/Sprites/rectangle.png.meta
+    - Assets/Sprites/right button.png
+    - Assets/Sprites/right button.png.meta
+    - Assets/Sprites/right.png
+    - Assets/Sprites/right.png.meta
+    - Assets/Sprites/settings.png
+    - Assets/Sprites/settings.png.meta
+    - Assets/Sprites/settings2.png
+    - Assets/Sprites/settings2.png.meta
+    - Assets/Sprites/square.png
+    - Assets/Sprites/square.png.meta
+    - Assets/Sprites/up button.png
+    - Assets/Sprites/up button.png.meta
+    - Assets/Sprites/use button.png
+    - Assets/Sprites/use button.png.meta
+    - Assets/Sprites/volume.png
+    - Assets/Sprites/volume.png.meta
+    - Assets/Sprites/~lapu lapu.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/1.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/1.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/2.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/2.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/3.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/3.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/4.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/4.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/5.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/5.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/6.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU IDLE/6.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu10.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu10.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu2.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu2.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu3.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu3.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu4.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu4.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu5.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu5.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu6.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu6.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu7.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu7.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu8.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu8.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu9.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU JUMP/Lapu-Lapu9.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/1-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/1-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/2-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/2-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/3-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/3-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/4-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/4-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/5-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/5-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/6-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/6-right.png.meta
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/7-right.png
+    - Assets/Sprites/~lapu lapu/LAPU-LAPU RUN/7-right.png.meta
+    - Assets/Standard Assets.meta
+    - Assets/Standard Assets/CrossPlatformInput.meta
+    - Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt
+    - Assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+    - Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+    - Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonCameraCycleUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png.meta
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+    - Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta
+    - Assets/Standard Assets/Editor.meta
+    - Assets/Standard Assets/Editor/CrossPlatformInput.meta
+    - Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+    - Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs.meta
+    - Assets/StreamingAssets.meta
+    - Assets/StreamingAssets/MODULE-4.pdf
+    - Assets/StreamingAssets/MODULE-4.pdf.meta
+    - Assets/StreamingAssets/MODULE-5-DESIGN.pdf
+    - Assets/StreamingAssets/MODULE-5-DESIGN.pdf.meta
+    - Assets/StreamingAssets/MODULE-6-DESIGN.pdf
+    - Assets/StreamingAssets/MODULE-6-DESIGN.pdf.meta
+    - Assets/StreamingAssets/MODULE-DESIGNING_-MODULE-3.pdf
+    - Assets/StreamingAssets/MODULE-DESIGNING_-MODULE-3.pdf.meta
+    - Assets/StreamingAssets/Module-1.pdf
+    - Assets/StreamingAssets/Module-1.pdf.meta
+    - Assets/StreamingAssets/Module-2-1.pdf
+    - Assets/StreamingAssets/Module-2-1.pdf.meta
+    - Assets/StreamingAssets/Module-2.pdf
+    - Assets/StreamingAssets/Module-2.pdf.meta
+    - Assets/StreamingAssets/Practical-Research-1-Quarter-1-Module-1.pdf
+    - Assets/StreamingAssets/Practical-Research-1-Quarter-1-Module-1.pdf.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - 
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

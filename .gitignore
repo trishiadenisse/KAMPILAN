@@ -1,0 +1,7 @@
+/Logs/
+/Temp/
+*.apk
+*.log
+*.tmp
+*.csproj
+/Lapu-Lapu Research Game.sln

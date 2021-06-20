@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - pause
+  - Enemy
+  - turn
+  - GM
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Player
+    uniqueID: 1319252681
+    locked: 0
+  - name: LapuLapu
+    uniqueID: 3657587369
+    locked: 0
+  - name: Bush1
+    uniqueID: 1341365179
+    locked: 0
+  - name: Bush2
+    uniqueID: 1892374809
+    locked: 0
+  - name: Bridge
+    uniqueID: 342491905
+    locked: 0
+  - name: Bridge2
+    uniqueID: 1354037455
+    locked: 0
+  - name: Clouds
+    uniqueID: 3318092057
+    locked: 0
+  - name: Sea
+    uniqueID: 178022687
+    locked: 0
+  - name: Background
+    uniqueID: 843822829
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
